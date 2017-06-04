@@ -7,7 +7,7 @@ function getTriangleArea(a, h) {
 if ((a < 0) || (h < 0)) 
 	return "incorrect data";
 else (a, h) /
-	return a*h/2;
+	return a*h/2; //Patryk, to niestety nie dziala :(
 }
 var a*h/2;
 var triangle1Area = getTriangleArea(10,15); 
