@@ -5,10 +5,12 @@ var h=4;
 
 
 function getTriangleArea(a, h) {
-if ((a < 0) || (h < 0)) 
-	return "incorrect data";
-else 
-	return a*h/2;
+	
+	if ((a < 0) || (h < 0)) {
+		return "incorrect data";
+	} else {
+		return a*h/2;
+	}
 }
 
 var triangle1Area = getTriangleArea(10,15); 
